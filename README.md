@@ -5,7 +5,7 @@
 Network Engineer with a Master's degree in Web Science (Information Security). 
 Passionate about Linux system administration, cybersecurity, and vulnerability research. 
 This portfolio documents my hands-on Linux journey through real-world troubleshooting scenarios and practical labs.
-Currently seekig remoteopportunities as a Junior System Administrator or NOC Engineer.
+Currently seeking remote opportunities as a Junior System Administrator or NOC Engineer.
 
 ---
 
