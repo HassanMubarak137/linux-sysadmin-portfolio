@@ -2,7 +2,7 @@
 
 ## 👤 About Me
 
-Network Engineer with a Master's degree in Web Science (Information Security). 
+Network Engineer with a Master's in Web Science (Information Security). 
 Passionate about Linux system administration, cybersecurity, and vulnerability research. 
 This portfolio documents my hands-on Linux journey through real-world troubleshooting scenarios and practical labs.
 Currently seeking remote opportunities as a Junior System Administrator or NOC Engineer.
@@ -300,7 +300,7 @@ Ran systemctl is-system-running → result was degraded (a service failed during
 
 **Solution:**
 
-1. systemctl --failed → identified vboxadd-service.service
+1. systemctl - -failed → identified vboxadd-service.service
 
 2. sudo systemctl status vboxadd-service.service → saw the error details
 
@@ -312,7 +312,7 @@ sudo /media/cdrom/VBoxLinuxAdditions.run
 ```
 4. Still degraded. Found the issue: old installations conflicting. Solved:
 ```bash
-sudo dpkg --purge virtualbox-guest-utils virtualbox-guest-x11
+sudo dpkg - -purge virtualbox-guest-utils virtualbox-guest-x11
 sudo apt autoremove -y
 sudo systemctl reset-failed vboxadd-service.service
 sudo ./VBoxLinuxAdditions.run
@@ -364,7 +364,7 @@ From the laptop:
 tracert -d 192.168.43.159
 ```
 **Result:**
- * * * (Request timed out) from the first hop — confirming the packet reached the target but was dropped by the firewall.
+*** (Request timed out) from the first hop — confirming the packet reached the target but was dropped by the firewall.
 Then removed the block:
 ```bash
 sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
@@ -429,7 +429,7 @@ This is a form of DNS Poisoning — attackers use /etc/hosts to redirect users t
 
 ## 🛠️ Technical Skills Summary
 | Category | Skills |
-| :--- | :--- |
+| :- - - | :- - - |
 | **Command Line** | `ls`, `cd`, `cp`, `mv`, `rm`, `find`, `grep`, `cat`, `nano`, `history`, `file` |
 | **Permissions** | `chmod`, `chown`, `chgrp`, `usermod`, `ls -ld` |
 | **Processes**	| `ps aux`, `top`, `kill`, `nice`, `jobs`, `bg`, `fg`, `Ctrl+Z` |
