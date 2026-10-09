@@ -369,7 +369,6 @@ Then removed the block:
 ```bash
 sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
 ```
-**Result:**
 Successfully blocked and unblocked ICMP, and monitored the effect with traceroute.
 
 **Skills:** iptables, traceroute
