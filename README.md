@@ -443,7 +443,7 @@ GitHub: [HassanMubarak137](https://github.com/HassanMubarak137)
 Email: hassan.mbarak994@gmail.com
 
 ## Portfolio Stats
-**Total Scenarios:** 19
-**Categories:** 4 (Command Line, Permissions, Processes, Networking)
-**Last updated:** October 2026
+- **Total Scenarios:** 19
+- **Categories:** 4 (Command Line, Permissions, Processes, Networking)
+- **Last updated:** October 2026
 This portfolio is a living document — updated continuously as I learn and practice.
