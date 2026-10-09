@@ -429,13 +429,13 @@ This is a form of DNS Poisoning — attackers use /etc/hosts to redirect users t
 
 ## 🛠️ Technical Skills Summary
 | Category | Skills |
-| :- - - | :- - - |
+| :--- | :--- |
 | **Command Line** | `ls`, `cd`, `cp`, `mv`, `rm`, `find`, `grep`, `cat`, `nano`, `history`, `file` |
 | **Permissions** | `chmod`, `chown`, `chgrp`, `usermod`, `ls -ld` |
-| **Processes**	| `ps aux`, `top`, `kill`, `nice`, `jobs`, `bg`, `fg`, `Ctrl+Z` |
-| **Services**	| `systemctl`, `journalctl`, `dpkg`, `apt` |
+| **Processes** | `ps aux`, `top`, `kill`, `nice`, `jobs`, `bg`, `fg`, `Ctrl+Z` |
+| **Services** | `systemctl`, `journalctl`, `dpkg`, `apt` |
 | **Networking** | `ping`, `traceroute`, `ip route`, `ss`, `iptables`, `dig`, `getent` |
-| **Other** | `VirtualBox`, `Git`, `Markdown` |
+| **Other** | VirtualBox, Git, Markdown |
 
 ## 📫 Contact
 GitHub: [HassanMubarak137](https://github.com/HassanMubarak137)
