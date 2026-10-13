@@ -242,7 +242,7 @@ Then:
 
 - jobs → showed it as running
 
-- ps aux | grep error → identified PID 1905 with state D (Uninterruptible sleep)
+- `ps aux | grep error` → identified PID 1905 with state D (Uninterruptible sleep)
 
 - sudo kill -STOP 1905 → paused it (signal 19)
 
@@ -300,7 +300,7 @@ Ran systemctl is-system-running → result was degraded (a service failed during
 
 **Solution:**
 
-1. systemctl - -failed → identified vboxadd-service.service
+1. `systemctl --failed` → identified vboxadd-service.service
 
 2. sudo systemctl status vboxadd-service.service → saw the error details
 
@@ -312,7 +312,7 @@ sudo /media/cdrom/VBoxLinuxAdditions.run
 ```
 4. Still degraded. Found the issue: old installations conflicting. Solved:
 ```bash
-sudo dpkg - -purge virtualbox-guest-utils virtualbox-guest-x11
+sudo `dpkg --purge` virtualbox-guest-utils virtualbox-guest-x11
 sudo apt autoremove -y
 sudo systemctl reset-failed vboxadd-service.service
 sudo ./VBoxLinuxAdditions.run
