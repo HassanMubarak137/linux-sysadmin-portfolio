@@ -427,6 +427,7 @@ This is a form of DNS Poisoning — attackers use /etc/hosts to redirect users t
 **Skills:** dig, getent hosts, /etc/hosts, DNS Poisoning
 
 ## 🛠️ Technical Skills Summary
+
 | Category | Skills |
 | :--- | :--- |
 | **Command Line** | `ls`, `cd`, `cp`, `mv`, `rm`, `find`, `grep`, `cat`, `nano`, `history`, `file` |
